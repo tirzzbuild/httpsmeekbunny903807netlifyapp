@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GameZone · Rental PS4 &amp; Sewa Playbook</title>
+  <meta name="description" content="Rental PS4 Rp10.000/jam main di tempat dan sewa Playbook Rp100.000/12 jam siap antar. Booking online, bayar pakai QRIS.">
+  <meta name="theme-color" content="#05090b">
+
+  <!-- Preview link saat dibagikan di WhatsApp/Instagram. Ganti alamatnya dengan alamat situsmu (lihat README). -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GameZone">
+  <meta property="og:title" content="GameZone · Rental PS4 &amp; Sewa Playbook">
+  <meta property="og:description" content="PS4 Rp10.000/jam · Playbook Rp100.000/12 jam siap antar · Bayar QRIS">
+  <meta property="og:url" content="https://gamezone-rental.netlify.app/">
+  <meta property="og:image" content="https://gamezone-rental.netlify.app/assets/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/images/icon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,700..900&family=Chakra+Petch:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div class="site">
+  <a class="skip" href="#booking">Langsung ke form booking</a>
+
+  <!-- ===== Header & navigasi ===== -->
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="brand" href="#beranda" aria-label="GameZone, kembali ke atas">
+        <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><path fill="currentColor" d="M15 12.5h18a10 10 0 0 1 9.8 12l-1.7 8.3a5.4 5.4 0 0 1-9.2 2.6L28.6 32h-9.2l-3.3 3.4a5.4 5.4 0 0 1-9.2-2.6l-1.7-8.3A10 10 0 0 1 15 12.5z"/><path class="hole" d="M13.6 19h3.2v3.2H20v3.2h-3.2v3.2h-3.2v-3.2h-3.2v-3.2h3.2z"/><circle class="hole" cx="31" cy="20.8" r="2.3"/><circle class="hole" cx="35.4" cy="25.4" r="2.3"/></svg>
+        <span class="brand-txt"><b data-wordmark>Game<i>Zone</i></b><small>Rental PS &amp; Playbook</small></span>
+      </a>
+      <nav class="links" aria-label="Navigasi utama">
+        <a href="#sewa">Daftar Sewa</a>
+        <a href="#harga">Harga</a>
+        <a href="#booking">Cara Sewa</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <div class="top-act">
+        <a class="btn btn-primary btn-sm top-book" href="#booking">Booking Sekarang</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Buka menu">
+          <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="menu" id="menu" aria-label="Menu" hidden>
+      <div class="wrap">
+        <a href="#sewa">Daftar Sewa <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+        <a href="#harga">Harga <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+        <a href="#booking">Cara Sewa <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+        <a href="#kontak">Kontak <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-primary btn-block" href="#booking">Booking Sekarang</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="beranda">
+      <div class="wrap hero-grid">
+        <figure class="hero-media">
+          <img src="assets/images/banner-gaming.webp" alt="Konsol PlayStation 4 dan stik siap dimainkan" width="1004" height="652" fetchpriority="high">
+        </figure>
+        <div class="hero-copy">
+          <span class="kicker"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.2 7h9.6a4.8 4.8 0 0 1 4.7 5.8l-.8 3.9a2.6 2.6 0 0 1-4.5 1.2L14.4 16H9.6l-1.8 1.9a2.6 2.6 0 0 1-4.5-1.2l-.8-3.9A4.8 4.8 0 0 1 7.2 7z"/><path d="M7.5 10v3.4M5.8 11.7h3.4M15.6 10.6h.01M17.6 12.6h.01"/></svg>Rental PS &amp; Playbook</span>
+          <h1>Main Game Favoritmu <span class="neon">Tanpa Ribet!</span></h1>
+          <p class="lead">Rental PS4 <b><span data-price="ps">Rp10.000</span>/jam</b> di tempat kami, atau sewa Playbook <b><span data-price="pb">Rp100.000</span>/12 jam</b> yang siap kami antar ke rumahmu.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg glow" href="#booking">Booking Sekarang <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-ghost btn-lg" href="#sewa">Lihat Daftar Sewa</a>
+          </div>
+          <dl class="facts">
+            <div><dt>PS4</dt><dd><span data-price-short="ps">Rp10rb</span><small>per jam</small></dd></div>
+            <div><dt>Playbook</dt><dd><span data-price-short="pb">Rp100rb</span><small>per 12 jam</small></dd></div>
+            <div><dt>Bayar</dt><dd>QRIS<small>nominal otomatis</small></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Keunggulan ===== -->
+    <section class="perks" aria-label="Keunggulan">
+      <div class="wrap perks-grid">
+        <div class="perk"><span class="perk-i"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.2 7h9.6a4.8 4.8 0 0 1 4.7 5.8l-.8 3.9a2.6 2.6 0 0 1-4.5 1.2L14.4 16H9.6l-1.8 1.9a2.6 2.6 0 0 1-4.5-1.2l-.8-3.9A4.8 4.8 0 0 1 7.2 7z"/><path d="M7.5 10v3.4M5.8 11.7h3.4M15.6 10.6h.01M17.6 12.6h.01"/></svg></span><div class="perk-t"><b>Game Lengkap</b><span>Banyak pilihan game</span></div></div>
+        <div class="perk"><span class="perk-i"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 2.8v5.4c0 4.4-2.9 8.2-7 9.8-4.1-1.6-7-5.4-7-9.8V5.8L12 3z"/><path d="M9 12l2.2 2.2L15.2 10"/></svg></span><div class="perk-t"><b>Perangkat Terawat</b><span>Bersih, aman, nyaman</span></div></div>
+        <div class="perk"><span class="perk-i"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3L5.5 13.5H11l-1 7.5 8.5-10.5H13L13 3z"/></svg></span><div class="perk-t"><b>Harga Terjangkau</b><span>Mulai <span data-price-short="ps">Rp10rb</span> per jam</span></div></div>
+        <div class="perk"><span class="perk-i"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.2a4.2 4.2 0 0 0 7 0M9 9.5h.01M15 9.5h.01"/></svg></span><div class="perk-t"><b>Pelayanan Ramah</b><span>Siap bantu lewat WhatsApp</span></div></div>
+      </div>
+    </section>
+
+    <!-- ===== Katalog ===== -->
+    <section class="sec" id="sewa">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <span class="eyebrow">Daftar Sewa</span>
+          <h2>Pilih cara mainmu</h2>
+          <p>Main di tempat dengan hitungan per jam, atau bawa Playbook pulang untuk main seharian di rumah.</p>
+        </header>
+        <div class="products">
+          <article class="product product-ps reveal">
+            <div class="p-media">
+              <img class="fit-contain" src="assets/images/ps4.webp" alt="Unit PlayStation 4 dan stik" width="400" height="496" loading="lazy">
+              <span class="p-badge"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>Main di tempat</span>
+            </div>
+            <div class="p-body">
+              <div class="p-labels"><span class="tag tag-neon">Per jam</span><span class="tag">Bayar QRIS</span></div>
+              <h3>Rental PlayStation 4</h3>
+              <ul class="checks">
+                <li><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>Konsol PS4 500GB</span></li>
+                <li><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>Stik DualShock 4 original</span></li>
+                <li><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>Siap main langsung</span></li>
+              </ul>
+              <div class="games" id="games" aria-label="Game tersedia"><span>FIFA</span><span>GTA</span><span>RDR2</span><span class="more">dan lainnya</span></div>
+              <div class="p-foot">
+                <div class="price"><span>Harga sewa</span><strong><small>Rp</small><span data-num="ps">10.000</span><em>/jam</em></strong></div>
+                <button class="btn btn-primary" type="button" data-book="ps">Sewa Sekarang <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product product-pb reveal">
+            <div class="p-media">
+              <img src="assets/images/playbook.webp" alt="Unit Playbook PS4" width="660" height="404" loading="lazy">
+              <span class="p-badge"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6.5h11V16H3z"/><path d="M14 10h3.6l3.4 3.4V16H14"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>Siap antar</span>
+            </div>
+            <div class="p-body">
+              <div class="p-labels"><span class="tag tag-neon">Per 12 jam</span><span class="tag">Bayar QRIS</span></div>
+              <h3>Sewa Playbook</h3>
+              <ul class="checks">
+                <li><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>PS4 portable, layar menyatu</span></li>
+                <li><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>Ringan &amp; praktis dibawa</span></li>
+                <li><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>Siap antar ke alamatmu</span></li>
+              </ul>
+              <div class="p-foot">
+                <div class="price"><span>Harga sewa</span><strong><small>Rp</small><span data-num="pb">100.000</span><em>/12 jam</em></strong></div>
+                <button class="btn btn-primary" type="button" data-book="pb">Sewa Sekarang <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== Tabel harga ===== -->
+        <div class="ptable reveal" id="harga">
+          <div class="pt-col">
+            <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.2 7h9.6a4.8 4.8 0 0 1 4.7 5.8l-.8 3.9a2.6 2.6 0 0 1-4.5 1.2L14.4 16H9.6l-1.8 1.9a2.6 2.6 0 0 1-4.5-1.2l-.8-3.9A4.8 4.8 0 0 1 7.2 7z"/><path d="M7.5 10v3.4M5.8 11.7h3.4M15.6 10.6h.01M17.6 12.6h.01"/></svg>PS4 · di tempat</h3>
+            <dl>
+              <div><dt>1 jam</dt><dd data-calc="ps:1">Rp10.000</dd></div>
+              <div><dt>2 jam</dt><dd data-calc="ps:2">Rp20.000</dd></div>
+              <div><dt>3 jam</dt><dd data-calc="ps:3">Rp30.000</dd></div>
+              <div><dt>5 jam</dt><dd data-calc="ps:5">Rp50.000</dd></div>
+            </dl>
+          </div>
+          <div class="pt-col">
+            <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6.5h11V16H3z"/><path d="M14 10h3.6l3.4 3.4V16H14"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>Playbook · antar</h3>
+            <dl>
+              <div><dt>12 jam</dt><dd data-calc="pb:1">Rp100.000</dd></div>
+              <div><dt>24 jam</dt><dd data-calc="pb:2">Rp200.000</dd></div>
+              <div><dt>2 hari</dt><dd data-calc="pb:4">Rp400.000</dd></div>
+              <div><dt>3 hari</dt><dd data-calc="pb:6">Rp600.000</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Cara sewa + form booking ===== -->
+    <section class="sec" id="booking">
+      <div class="wrap booking-grid">
+        <div class="booking-intro">
+          <header class="sec-head reveal">
+            <span class="eyebrow">Cara Sewa</span>
+            <h2>Booking dalam 1 menit</h2>
+            <p>Nominal QRIS dibuat otomatis sesuai total booking. Kamu tinggal scan dan bayar.</p>
+          </header>
+          <ol class="steps reveal">
+            <li><b>Isi form</b><span>Pilih paket, durasi, dan jadwal.</span></li>
+            <li><b>Kirim ke WhatsApp</b><span>Detail booking terkirim ke admin.</span></li>
+            <li><b>Bayar QRIS</b><span>Nominal sudah terisi otomatis.</span></li>
+            <li><b>Mulai main</b><span>Datang ke rental, atau Playbook kami antar.</span></li>
+          </ol>
+          <div id="last-booking"></div>
+        </div>
+
+        <!-- Form ini juga terbaca oleh Netlify Forms (lihat README) -->
+        <form class="bform card reveal" id="booking-form" name="booking" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="booking">
+          <p class="hp" aria-hidden="true"><label>Jangan diisi <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <input type="hidden" name="kode_booking" id="f-code">
+          <input type="hidden" name="durasi" id="f-durasi">
+          <input type="hidden" name="jadwal" id="f-jadwal">
+          <input type="hidden" name="total_bayar" id="f-total">
+
+          <fieldset class="pick">
+            <legend>Pilih sewa</legend>
+            <div class="pick-grid">
+              <label class="pick-card on" id="card-ps">
+                <input type="radio" name="paket" value="Rental PS4" data-item="ps" id="item-ps" checked>
+                <span class="tick"></span>
+                <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.2 7h9.6a4.8 4.8 0 0 1 4.7 5.8l-.8 3.9a2.6 2.6 0 0 1-4.5 1.2L14.4 16H9.6l-1.8 1.9a2.6 2.6 0 0 1-4.5-1.2l-.8-3.9A4.8 4.8 0 0 1 7.2 7z"/><path d="M7.5 10v3.4M5.8 11.7h3.4M15.6 10.6h.01M17.6 12.6h.01"/></svg>
+                <span class="pick-name">Rental PS4</span>
+                <span class="pick-price"><span data-price="ps">Rp10.000</span><small>/jam</small></span>
+                <span class="pick-mode">Main di tempat</span>
+              </label>
+              <label class="pick-card" id="card-pb">
+                <input type="radio" name="paket" value="Sewa Playbook" data-item="pb" id="item-pb">
+                <span class="tick"></span>
+                <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6.5h11V16H3z"/><path d="M14 10h3.6l3.4 3.4V16H14"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg>
+                <span class="pick-name">Sewa Playbook</span>
+                <span class="pick-price"><span data-price="pb">Rp100.000</span><small>/12 jam</small></span>
+                <span class="pick-mode">Siap antar</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <span class="lbl" id="dur-l">Durasi</span>
+            <div class="stepper" role="group" aria-labelledby="dur-l">
+              <button type="button" id="qty-minus" aria-label="Kurangi durasi"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"/></svg></button>
+              <output id="qty-out" aria-live="polite">2 jam</output>
+              <button type="button" id="qty-plus" aria-label="Tambah durasi"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            </div>
+            <div class="chips" id="chips"></div>
+          </div>
+
+          <div class="row2">
+            <div class="field"><label for="f-date">Tanggal</label><input type="date" id="f-date" name="tanggal" required></div>
+            <div class="field"><label for="f-time" id="f-time-l">Jam mulai</label><input type="time" id="f-time" name="jam_mulai" step="900" required></div>
+          </div>
+          <div class="field"><label for="f-name">Nama</label><input id="f-name" name="nama" autocomplete="name" placeholder="Nama lengkap" required></div>
+          <div class="field"><label for="f-phone">Nomor WhatsApp</label><input id="f-phone" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="0812-3456-7890" required></div>
+          <div class="field" id="addr-wrap" hidden><label for="f-address">Alamat pengantaran</label><textarea id="f-address" name="alamat" rows="2" autocomplete="street-address" placeholder="Jalan, nomor rumah, patokan"></textarea></div>
+          <div class="field"><label for="f-note">Catatan <span class="opt">(opsional)</span></label><input id="f-note" name="catatan" placeholder="Contoh: mau main FIFA, butuh 2 stik"></div>
+
+          <div class="sum" id="sum" aria-live="polite"></div>
+          <button class="btn btn-primary btn-lg btn-block" type="submit" id="f-submit">Booking Sekarang <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="hint">Setelah klik, kamu dapat kode booking, tombol kirim ke WhatsApp admin, dan QRIS dengan nominal otomatis.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== Kontak ===== -->
+    <section class="sec" id="kontak">
+      <div class="wrap">
+        <div class="contact-card reveal">
+          <div class="cc-media" aria-hidden="true"><img src="assets/images/banner-cta.webp" alt="" width="472" height="232" loading="lazy"></div>
+          <div class="cc-copy">
+            <span class="eyebrow">Kontak</span>
+            <h2>Jangan tunda lagi!</h2>
+            <p>Tanya jadwal kosong atau info antar Playbook langsung ke admin.</p>
+            <ul class="cc-list" id="contact-list"></ul>
+            <div class="cc-cta">
+              <a class="btn btn-primary" id="wa-chat" href="#booking" target="_blank" rel="noopener" hidden><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.4L3.5 20.5 5 16a8.4 8.4 0 1 1 15.5-4.4z"/></svg>Chat WhatsApp</a>
+              <a class="btn btn-ghost" href="#booking">Isi Form Booking</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <a class="brand" href="#beranda" aria-label="GameZone, kembali ke atas">
+        <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><path fill="currentColor" d="M15 12.5h18a10 10 0 0 1 9.8 12l-1.7 8.3a5.4 5.4 0 0 1-9.2 2.6L28.6 32h-9.2l-3.3 3.4a5.4 5.4 0 0 1-9.2-2.6l-1.7-8.3A10 10 0 0 1 15 12.5z"/><path class="hole" d="M13.6 19h3.2v3.2H20v3.2h-3.2v3.2h-3.2v-3.2h-3.2v-3.2h3.2z"/><circle class="hole" cx="31" cy="20.8" r="2.3"/><circle class="hole" cx="35.4" cy="25.4" r="2.3"/></svg>
+        <span class="brand-txt"><b data-wordmark>Game<i>Zone</i></b><small>Rental PS &amp; Playbook</small></span>
+      </a>
+      <nav aria-label="Navigasi bawah">
+        <a href="#sewa">Daftar Sewa</a><a href="#harga">Harga</a><a href="#booking">Cara Sewa</a><a href="#kontak">Kontak</a>
+      </nav>
+      <p>© <span data-year>2026</span> <span data-name>GameZone</span>. Rental PS &amp; Playbook.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Tombol booking melayang (HP) ===== -->
+  <div class="dock" id="dock">
+    <div class="dock-in">
+      <div class="dock-price"><small>Mulai</small><b><span data-price-short="ps">Rp10rb</span><i>/jam</i></b></div>
+      <a class="btn btn-primary" href="#booking">Booking Sekarang <svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
